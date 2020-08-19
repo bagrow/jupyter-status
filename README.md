@@ -34,12 +34,16 @@ I find kernel names are helpful when using [per-project environments](https://de
 
 ## Usage
 
-From the command-line, run
+From the command-line, run:
 ```
 jupyter-status
 ```
+Or if you want an html table:
+```
+jupyter-status html
+```
 
-
+Arguments to `jupyter-status` are passed to [tabulate's `tablefmt` option](https://github.com/astanin/python-tabulate#table-format).
 
 ## Install
 
