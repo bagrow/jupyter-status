@@ -1,5 +1,5 @@
 # Jupyter Status
-Get a quick tabular summary of running Jupyter servers and kernels.
+Get a quick tabular summary of running Jupyter servers and kernels. Especially useful as a status board when embedded in your desktop using [GeekTool](https://www.tynsoe.org/v2/geektool/), [Ubersicht](http://tracesof.net/uebersicht/), [Conky](https://github.com/brndnmtthws/conky), or the like.
 
 ## Usage
 
