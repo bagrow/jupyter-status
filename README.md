@@ -30,6 +30,8 @@ Console 1                        console   research-project-02  2020-08-16 16:17
 jpb-log_2020-08-15.ipynb         notebook  research-project-02  2020-08-16 16:17  idle
 ```
 
+I find kernel names are helpful when using [per-project environments](https://dev.to/rgalbo/simple-python-environments-for-data-science--4pha) (in my case, with [Anaconda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)).
+
 ## Usage
 
 From the command-line, run
