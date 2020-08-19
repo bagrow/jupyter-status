@@ -31,6 +31,6 @@ setuptools.setup(
         'tabulate'
     ],
     entry_points = {
-        'console_scripts' : ['jupyter-status=jupyter-status:main()']
+        'console_scripts' : ['jupyter-status=jupyter_status:main']
     }
 )
