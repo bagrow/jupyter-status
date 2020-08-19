@@ -1,12 +1,6 @@
 # Jupyter Status
 Get a quick tabular summary of running Jupyter servers and kernels. Especially useful as a status board when embedded in your desktop using [GeekTool](https://www.tynsoe.org/v2/geektool/), [Ubersicht](http://tracesof.net/uebersicht/), [Conky](https://github.com/brndnmtthws/conky), or the like.
 
-## Usage
-
-From the command-line, run
-```
-jupyter-status
-```
 
 ## Example
 
@@ -35,6 +29,15 @@ Console 1                        console   research-project-02  2020-08-16 16:17
 02.0-jpb-big-simulation.ipynb    notebook  research-project-02  2020-08-19 22:28  running
 jpb-log_2020-08-15.ipynb         notebook  research-project-02  2020-08-16 16:17  idle
 ```
+
+## Usage
+
+From the command-line, run
+```
+jupyter-status
+```
+
+
 
 ## Install
 
