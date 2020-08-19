@@ -10,7 +10,7 @@ jupyter-status
 
 ## Example
 
-Here I am running three jupyter lab servers on my laptop, each with a few notebooks or consoles open.
+Here I have three jupyter lab servers running on my machine, each with a few notebooks or consoles open:
 
 ```
 localhost:8888 /Users/bagrow/projects/research-project-01/notebooks
