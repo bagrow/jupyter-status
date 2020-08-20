@@ -16,9 +16,9 @@ Console 2                              console   research-project-01  2020-08-19
 jpb-log_2020-08-19.ipynb               notebook  research-project-01  2020-08-19 22:28  idle
 
 localhost:8889 /Users/bagrow/projects/cool-science-playground/notebooks
-Name                                   Type      Kernel                     Last active       Status
--------------------------------------  --------  -------------------------  ----------------  --------
-Console 1                              console   cool-science-playground    2020-08-19 22:28  idle
+Name                     Type      Kernel                     Last active       Status
+-----------------------  --------  -------------------------  ----------------  --------
+Console 1                console   cool-science-playground    2020-08-19 22:28  idle
 
 localhost:8890 /Users/bagrow/projects/research-project-02/notebooks
 Name                             Type      Kernel               Last active       Status
