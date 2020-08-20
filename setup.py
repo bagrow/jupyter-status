@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Jupyter Status",
-    version="0.1",
+    version="0.11",
     author="Jim Bagrow",
     author_email="bagrowjp@gmail.com",
     description="A quick, tabular summary of running Jupyter servers and kernels",
