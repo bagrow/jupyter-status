@@ -37,7 +37,7 @@ From the command-line, run:
 ```
 jupyter-status
 ```
-Or if you want an HTML table:
+Or maybe you want an HTML table:
 ```
 jupyter-status -f html
 ```
