@@ -40,10 +40,12 @@ jupyter-status
 ```
 Or if you want an html table:
 ```
-jupyter-status html
+jupyter-status -f html
 ```
 
-Arguments to `jupyter-status` are passed to [tabulate's `tablefmt` option](https://github.com/astanin/python-tabulate#table-format).
+Arguments to `-f` are passed to [tabulate's `tablefmt` option](https://github.com/astanin/python-tabulate#table-format).
+
+See `jupyter-status -h` for full help.
 
 ## Install
 
