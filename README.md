@@ -12,7 +12,6 @@ Name                                   Type      Kernel               Last activ
 -------------------------------------  --------  -------------------  ----------------  --------
 Console 1                              console   research-project-01  2020-08-19 22:28  idle
 Console 2                              console   research-project-01  2020-08-19 22:28  idle
-Console 3                              console   research-project-01  2020-08-19 22:28  idle
 01-jpb-explore-data.ipynb              notebook  research-project-01  2020-08-19 22:28  idle
 jpb-log_2020-08-19.ipynb               notebook  research-project-01  2020-08-19 22:28  idle
 
