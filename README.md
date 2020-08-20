@@ -45,7 +45,7 @@ jupyter-status -f html
 
 Arguments to `-f` are passed to [tabulate's `tablefmt` option](https://github.com/astanin/python-tabulate#table-format).
 
-See `jupyter-status -h` for full help.
+See `jupyter-status -h` for full details.
 
 ## Install
 
