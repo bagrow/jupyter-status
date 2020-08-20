@@ -8,12 +8,12 @@ Here I have three jupyter lab servers running on my machine, each with a few not
 
 ```
 localhost:8888 /Users/bagrow/projects/research-project-01/notebooks
-Name                                   Type      Kernel               Last active       Status
--------------------------------------  --------  -------------------  ----------------  --------
-Console 1                              console   research-project-01  2020-08-19 22:28  idle
-Console 2                              console   research-project-01  2020-08-19 22:28  idle
-01-jpb-explore-data.ipynb              notebook  research-project-01  2020-08-19 22:28  idle
-jpb-log_2020-08-19.ipynb               notebook  research-project-01  2020-08-19 22:28  idle
+Name                            Type      Kernel               Last active       Status
+------------------------------  --------  -------------------  ----------------  --------
+Console 1                       console   research-project-01  2020-08-19 22:28  idle
+Console 2                       console   research-project-01  2020-08-19 22:28  idle
+01-jpb-explore-data.ipynb       notebook  research-project-01  2020-08-19 22:28  idle
+jpb-log_2020-08-19.ipynb        notebook  research-project-01  2020-08-19 22:28  idle
 
 localhost:8889 /Users/bagrow/projects/cool-science-playground/notebooks
 Name                     Type      Kernel                     Last active       Status
