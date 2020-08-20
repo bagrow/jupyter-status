@@ -10,19 +10,25 @@ import subprocess
 import json
 from operator import itemgetter
 from datetime import datetime
+import argparse
 
 import requests
 from tabulate import tabulate
 
 
 def main():
-    try:
-        tablefmt = sys.argv[1]
-    except IndexError:
-        tablefmt = None
+
+    desc = 'A quick, tabular summary of running Jupyter servers and kernels'
+    parser = argparse.ArgumentParser(description=desc)
+    parser.add_argument('-f', '--format', action='store', default='plain',
+                        help="Table format passed to tabulate. Default: 'plain'")
+    parser.add_argument('-j', '--jupyter', action='store', default='jupyter',
+                        help="Specify your jupyter path/cmd. Default: 'jupyter'")
+    args = parser.parse_args()
+
 
     # first list all running notebooks to get all running servers:
-    result = subprocess.check_output(['jupyter', 'notebook', 'list'])
+    result = subprocess.check_output([args.jupyter, 'notebook', 'list'])
     result = result.decode()
     R = result.strip().split("\n")
     if not R:
@@ -61,7 +67,12 @@ def main():
         print(server, path)
         if L:
             h = ['Name', 'Type', 'Kernel', "Last active", "Status"]
-            print(tabulate(sorted(L, key=itemgetter(1,2,0,4)), headers=h, tablefmt=tablefmt))
+            print(tabulate(sorted(L, key=itemgetter(1,2,0,4)), headers=h, tablefmt=args.format))
         else:
-            print("No kernels running")
+            L = [['No kernels running']]
+            print(tabulate(L, tablefmt=args.format))
         print()
+
+
+if __name__ == '__main__':
+    main()
